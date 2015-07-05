@@ -2,6 +2,18 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:KickBall/KickBall.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Physics/Physics.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CustomScene/CustomScene.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UsingSpriteKit/UsingSpriteKit.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:MusicDemo/MusicDemo.xcodeproj">
    </FileRef>
 </Workspace>
