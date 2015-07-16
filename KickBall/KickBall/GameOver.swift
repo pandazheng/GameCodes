@@ -23,5 +23,4 @@ class GameOver : SKScene {
         fatalError("init(coder:) has not been implemented")
     }
     
-    
 }
