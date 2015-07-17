@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A40553611B57F52F00E7D8E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40553601B57F52F00E7D8E5 /* AppDelegate.swift */; };
+		A40553651B57F52F00E7D8E5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40553641B57F52F00E7D8E5 /* GameScene.swift */; };
+		A40553671B57F52F00E7D8E5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40553661B57F52F00E7D8E5 /* GameViewController.swift */; };
+		A405536A1B57F52F00E7D8E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40553681B57F52F00E7D8E5 /* Main.storyboard */; };
+		A405536C1B57F52F00E7D8E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A405536B1B57F52F00E7D8E5 /* Images.xcassets */; };
+		A405536F1B57F52F00E7D8E5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A405536D1B57F52F00E7D8E5 /* LaunchScreen.xib */; };
+		A405537B1B57F52F00E7D8E5 /* NinJiaGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A405537A1B57F52F00E7D8E5 /* NinJiaGameTests.swift */; };
+		A40553851B57FA0800E7D8E5 /* MLMovingGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40553841B57FA0800E7D8E5 /* MLMovingGround.swift */; };
+		A40553871B58010400E7D8E5 /* MLHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40553861B58010400E7D8E5 /* MLHero.swift */; };
+		A40553891B58054B00E7D8E5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40553881B58054B00E7D8E5 /* Constants.swift */; };
+		A405538B1B594F6F00E7D8E5 /* MLCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = A405538A1B594F6F00E7D8E5 /* MLCloud.swift */; };
+		A405538D1B59522C00E7D8E5 /* MLCloudGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A405538C1B59522C00E7D8E5 /* MLCloudGenerator.swift */; };
+		A405538F1B59593F00E7D8E5 /* MLWall.swift in Sources */ = {isa = PBXBuildFile; fileRef = A405538E1B59593F00E7D8E5 /* MLWall.swift */; };
+		A40553911B595A5C00E7D8E5 /* MLWallGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40553901B595A5C00E7D8E5 /* MLWallGenerator.swift */; };
+		A40553931B595BA700E7D8E5 /* MLPointsLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40553921B595BA700E7D8E5 /* MLPointsLabel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A40553751B57F52F00E7D8E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A40553531B57F52F00E7D8E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A405535A1B57F52F00E7D8E5;
+			remoteInfo = NinJiaGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A405535B1B57F52F00E7D8E5 /* NinJiaGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NinJiaGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A405535F1B57F52F00E7D8E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A40553601B57F52F00E7D8E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A40553641B57F52F00E7D8E5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A40553661B57F52F00E7D8E5 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A40553691B57F52F00E7D8E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A405536B1B57F52F00E7D8E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A405536E1B57F52F00E7D8E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A40553741B57F52F00E7D8E5 /* NinJiaGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NinJiaGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A40553791B57F52F00E7D8E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A405537A1B57F52F00E7D8E5 /* NinJiaGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinJiaGameTests.swift; sourceTree = "<group>"; };
+		A40553841B57FA0800E7D8E5 /* MLMovingGround.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLMovingGround.swift; sourceTree = "<group>"; };
+		A40553861B58010400E7D8E5 /* MLHero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLHero.swift; sourceTree = "<group>"; };
+		A40553881B58054B00E7D8E5 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A405538A1B594F6F00E7D8E5 /* MLCloud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLCloud.swift; sourceTree = "<group>"; };
+		A405538C1B59522C00E7D8E5 /* MLCloudGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLCloudGenerator.swift; sourceTree = "<group>"; };
+		A405538E1B59593F00E7D8E5 /* MLWall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLWall.swift; sourceTree = "<group>"; };
+		A40553901B595A5C00E7D8E5 /* MLWallGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLWallGenerator.swift; sourceTree = "<group>"; };
+		A40553921B595BA700E7D8E5 /* MLPointsLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLPointsLabel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40553581B57F52F00E7D8E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40553711B57F52F00E7D8E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40553521B57F52F00E7D8E5 = {
+			isa = PBXGroup;
+			children = (
+				A405535D1B57F52F00E7D8E5 /* NinJiaGame */,
+				A40553771B57F52F00E7D8E5 /* NinJiaGameTests */,
+				A405535C1B57F52F00E7D8E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A405535C1B57F52F00E7D8E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A405535B1B57F52F00E7D8E5 /* NinJiaGame.app */,
+				A40553741B57F52F00E7D8E5 /* NinJiaGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A405535D1B57F52F00E7D8E5 /* NinJiaGame */ = {
+			isa = PBXGroup;
+			children = (
+				A40553601B57F52F00E7D8E5 /* AppDelegate.swift */,
+				A40553641B57F52F00E7D8E5 /* GameScene.swift */,
+				A40553921B595BA700E7D8E5 /* MLPointsLabel.swift */,
+				A405538E1B59593F00E7D8E5 /* MLWall.swift */,
+				A40553901B595A5C00E7D8E5 /* MLWallGenerator.swift */,
+				A405538A1B594F6F00E7D8E5 /* MLCloud.swift */,
+				A405538C1B59522C00E7D8E5 /* MLCloudGenerator.swift */,
+				A40553841B57FA0800E7D8E5 /* MLMovingGround.swift */,
+				A40553861B58010400E7D8E5 /* MLHero.swift */,
+				A40553881B58054B00E7D8E5 /* Constants.swift */,
+				A40553661B57F52F00E7D8E5 /* GameViewController.swift */,
+				A40553681B57F52F00E7D8E5 /* Main.storyboard */,
+				A405536B1B57F52F00E7D8E5 /* Images.xcassets */,
+				A405536D1B57F52F00E7D8E5 /* LaunchScreen.xib */,
+				A405535E1B57F52F00E7D8E5 /* Supporting Files */,
+			);
+			path = NinJiaGame;
+			sourceTree = "<group>";
+		};
+		A405535E1B57F52F00E7D8E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A405535F1B57F52F00E7D8E5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A40553771B57F52F00E7D8E5 /* NinJiaGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				A405537A1B57F52F00E7D8E5 /* NinJiaGameTests.swift */,
+				A40553781B57F52F00E7D8E5 /* Supporting Files */,
+			);
+			path = NinJiaGameTests;
+			sourceTree = "<group>";
+		};
+		A40553781B57F52F00E7D8E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A40553791B57F52F00E7D8E5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A405535A1B57F52F00E7D8E5 /* NinJiaGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A405537E1B57F52F00E7D8E5 /* Build configuration list for PBXNativeTarget "NinJiaGame" */;
+			buildPhases = (
+				A40553571B57F52F00E7D8E5 /* Sources */,
+				A40553581B57F52F00E7D8E5 /* Frameworks */,
+				A40553591B57F52F00E7D8E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NinJiaGame;
+			productName = NinJiaGame;
+			productReference = A405535B1B57F52F00E7D8E5 /* NinJiaGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A40553731B57F52F00E7D8E5 /* NinJiaGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A40553811B57F52F00E7D8E5 /* Build configuration list for PBXNativeTarget "NinJiaGameTests" */;
+			buildPhases = (
+				A40553701B57F52F00E7D8E5 /* Sources */,
+				A40553711B57F52F00E7D8E5 /* Frameworks */,
+				A40553721B57F52F00E7D8E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A40553761B57F52F00E7D8E5 /* PBXTargetDependency */,
+			);
+			name = NinJiaGameTests;
+			productName = NinJiaGameTests;
+			productReference = A40553741B57F52F00E7D8E5 /* NinJiaGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A40553531B57F52F00E7D8E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "panda zheng";
+				TargetAttributes = {
+					A405535A1B57F52F00E7D8E5 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A40553731B57F52F00E7D8E5 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A405535A1B57F52F00E7D8E5;
+					};
+				};
+			};
+			buildConfigurationList = A40553561B57F52F00E7D8E5 /* Build configuration list for PBXProject "NinJiaGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A40553521B57F52F00E7D8E5;
+			productRefGroup = A405535C1B57F52F00E7D8E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A405535A1B57F52F00E7D8E5 /* NinJiaGame */,
+				A40553731B57F52F00E7D8E5 /* NinJiaGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A40553591B57F52F00E7D8E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A405536F1B57F52F00E7D8E5 /* LaunchScreen.xib in Resources */,
+				A405536C1B57F52F00E7D8E5 /* Images.xcassets in Resources */,
+				A405536A1B57F52F00E7D8E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40553721B57F52F00E7D8E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A40553571B57F52F00E7D8E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A405538D1B59522C00E7D8E5 /* MLCloudGenerator.swift in Sources */,
+				A40553651B57F52F00E7D8E5 /* GameScene.swift in Sources */,
+				A40553911B595A5C00E7D8E5 /* MLWallGenerator.swift in Sources */,
+				A40553671B57F52F00E7D8E5 /* GameViewController.swift in Sources */,
+				A40553871B58010400E7D8E5 /* MLHero.swift in Sources */,
+				A405538B1B594F6F00E7D8E5 /* MLCloud.swift in Sources */,
+				A405538F1B59593F00E7D8E5 /* MLWall.swift in Sources */,
+				A40553931B595BA700E7D8E5 /* MLPointsLabel.swift in Sources */,
+				A40553611B57F52F00E7D8E5 /* AppDelegate.swift in Sources */,
+				A40553851B57FA0800E7D8E5 /* MLMovingGround.swift in Sources */,
+				A40553891B58054B00E7D8E5 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40553701B57F52F00E7D8E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A405537B1B57F52F00E7D8E5 /* NinJiaGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A40553761B57F52F00E7D8E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A405535A1B57F52F00E7D8E5 /* NinJiaGame */;
+			targetProxy = A40553751B57F52F00E7D8E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A40553681B57F52F00E7D8E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A40553691B57F52F00E7D8E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A405536D1B57F52F00E7D8E5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A405536E1B57F52F00E7D8E5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A405537C1B57F52F00E7D8E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A405537D1B57F52F00E7D8E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A405537F1B57F52F00E7D8E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NinJiaGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A40553801B57F52F00E7D8E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NinJiaGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A40553821B57F52F00E7D8E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NinJiaGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NinJiaGame.app/NinJiaGame";
+			};
+			name = Debug;
+		};
+		A40553831B57F52F00E7D8E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NinJiaGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NinJiaGame.app/NinJiaGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A40553561B57F52F00E7D8E5 /* Build configuration list for PBXProject "NinJiaGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A405537C1B57F52F00E7D8E5 /* Debug */,
+				A405537D1B57F52F00E7D8E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A405537E1B57F52F00E7D8E5 /* Build configuration list for PBXNativeTarget "NinJiaGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A405537F1B57F52F00E7D8E5 /* Debug */,
+				A40553801B57F52F00E7D8E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A40553811B57F52F00E7D8E5 /* Build configuration list for PBXNativeTarget "NinJiaGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A40553821B57F52F00E7D8E5 /* Debug */,
+				A40553831B57F52F00E7D8E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A40553531B57F52F00E7D8E5 /* Project object */;
+}
