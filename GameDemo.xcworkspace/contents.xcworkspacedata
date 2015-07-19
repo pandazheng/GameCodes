@@ -2,6 +2,21 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Physics Tutorial/Physics Tutorial.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Particle Tutorial/Particle Tutorial.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Scenes Tutorial/Scenes Tutorial.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Actions Tutorial/Actions Tutorial.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Nodes Tutorial/Nodes Tutorial.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:SpaceShooting/SpaceShooting.xcodeproj">
    </FileRef>
    <FileRef
