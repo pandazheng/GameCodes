@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>9F41B595-3A48-41B9-8CE9-71476630FF9A</string>
+	<string>40F261B9-1AF9-4BD6-BF3D-1FCA16D886CD</string>
 	<key>IDESourceControlProjectName</key>
-	<string>NinJiaGame</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>7846AC98892E61603261E44169000E39CC65C335</key>
 		<string>https://github.com/pandazheng/GameCodes.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>NinJiaGame/NinJiaGame.xcodeproj</string>
+	<string>RoadDemo/RoadDemo.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7846AC98892E61603261E44169000E39CC65C335</key>
